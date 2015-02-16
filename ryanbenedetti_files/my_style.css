@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+//Theme: Aquablock by Ryan Benedetti
+/*
+
+Lightest: #DEF2F3, Used for text
+Bright Aqua: #78DFED, Used for panel_box background 
+Middle Tone: #1093A7, originally used for left_nav
+Darkest: #24454A, Used for panels
+
+More Green: #589BA4
+More Blue: #1AD3F1, Not used. Only use for highlights or accents
+Slate green: #759FA4
+
+Black is used for some boxes like h2
+White is used for some text
+
+*/
+html{
+   font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Oswald', sans-serif;
+  color: #DEF2F3;  
+}
+
+h2{
+  background-color: #000000;
+  padding:1% 2%;
+}
+
+span{
+  color: #78DFED;
+  font-size:0.5em;
+
+}
+
+.container{
+  background: #78DFED;
+}
+
+.top-block{
+   background-color: #1093A7;
+}
+
+.photo{
+  max-width:70%;
+  height:auto;
+  margin: 4%;
+}
+
+.panel {
+  background: #24454A;
+  list-style-type: none; 
+  padding: 5px;
+  text-align: center;
+}
+
+#panel_row{
+  margin-top: 10px
+}
+
+li.title{
+  font-size: 1.4em;
+  padding-bottom: 0.3em;
+}
+
+.btn{
+  background-color: #D99153;
+  color: #EBDED0;
+}
+
+#bio_blurb{
+  text-align: left;
+}
+
+#bio{
+ background: #DEF2F3;
+ color: #000000;
+ padding: 15px;
+ margin: 5px;
+}
+
+
+
+
